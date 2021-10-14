@@ -11,6 +11,11 @@
 		CEEB1DF727185D9400021B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1DF627185D9400021B9D /* ContentView.swift */; };
 		CEEB1DF927185DAD00021B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB1DF827185DAD00021B9D /* Assets.xcassets */; };
 		CEEB1DFC27185DAD00021B9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB1DFB27185DAD00021B9D /* Preview Assets.xcassets */; };
+		CEEB1E0527185E3500021B9D /* APIConstants .swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E0427185E3500021B9D /* APIConstants .swift */; };
+		CEEB1E1727186A0500021B9D /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1627186A0500021B9D /* Coffee.swift */; };
+		CEEB1E1A27186B1000021B9D /* CoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1927186B1000021B9D /* CoffeeService.swift */; };
+		CEEB1E1D27186C2500021B9D /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1C27186C2500021B9D /* CoffeeViewModel.swift */; };
+		CEEB1E2027186DFD00021B9D /* CurrentCoffeeImageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1F27186DFD00021B9D /* CurrentCoffeeImageScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		CEEB1DF627185D9400021B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEEB1DF827185DAD00021B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEB1DFB27185DAD00021B9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEEB1E0427185E3500021B9D /* APIConstants .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIConstants .swift"; sourceTree = "<group>"; };
+		CEEB1E1627186A0500021B9D /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Coffee.swift; path = ../../../../../../../Documents/Coffee.swift; sourceTree = "<group>"; };
+		CEEB1E1927186B1000021B9D /* CoffeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoffeeService.swift; path = ../../../../../../../Documents/CoffeeService.swift; sourceTree = "<group>"; };
+		CEEB1E1C27186C2500021B9D /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoffeeViewModel.swift; path = ../../../../../../../Documents/CoffeeViewModel.swift; sourceTree = "<group>"; };
+		CEEB1E1F27186DFD00021B9D /* CurrentCoffeeImageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrentCoffeeImageScreen.swift; path = ../../../../../../../Documents/CurrentCoffeeImageScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		CEEB1DF327185D9400021B9D /* Coffee API */ = {
 			isa = PBXGroup;
 			children = (
+				CEEB1E14271869D200021B9D /* Feature */,
+				CEEB1E0327185DFE00021B9D /* Constants */,
 				CEEB1DF427185D9400021B9D /* Coffee_APIApp.swift */,
 				CEEB1DF627185D9400021B9D /* ContentView.swift */,
 				CEEB1DF827185DAD00021B9D /* Assets.xcassets */,
@@ -65,6 +77,57 @@
 				CEEB1DFB27185DAD00021B9D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEEB1E0327185DFE00021B9D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB1E0427185E3500021B9D /* APIConstants .swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CEEB1E14271869D200021B9D /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB1E1E27186DE200021B9D /* Screen */,
+				CEEB1E1B27186C0E00021B9D /* ViewModel */,
+				CEEB1E1827186AF600021B9D /* Service */,
+				CEEB1E15271869EB00021B9D /* Model */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		CEEB1E15271869EB00021B9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB1E1627186A0500021B9D /* Coffee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEEB1E1827186AF600021B9D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB1E1927186B1000021B9D /* CoffeeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEEB1E1B27186C0E00021B9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB1E1C27186C2500021B9D /* CoffeeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEEB1E1E27186DE200021B9D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB1E1F27186DFD00021B9D /* CurrentCoffeeImageScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEB1E2027186DFD00021B9D /* CurrentCoffeeImageScreen.swift in Sources */,
+				CEEB1E0527185E3500021B9D /* APIConstants .swift in Sources */,
 				CEEB1DF727185D9400021B9D /* ContentView.swift in Sources */,
 				CEEB1DF527185D9400021B9D /* Coffee_APIApp.swift in Sources */,
+				CEEB1E1727186A0500021B9D /* Coffee.swift in Sources */,
+				CEEB1E1D27186C2500021B9D /* CoffeeViewModel.swift in Sources */,
+				CEEB1E1A27186B1000021B9D /* CoffeeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
