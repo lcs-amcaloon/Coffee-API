@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		CEEB1DF527185D9400021B9D /* Coffee_APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1DF427185D9400021B9D /* Coffee_APIApp.swift */; };
-		CEEB1DF727185D9400021B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1DF627185D9400021B9D /* ContentView.swift */; };
 		CEEB1DF927185DAD00021B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB1DF827185DAD00021B9D /* Assets.xcassets */; };
 		CEEB1DFC27185DAD00021B9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB1DFB27185DAD00021B9D /* Preview Assets.xcassets */; };
 		CEEB1E0527185E3500021B9D /* APIConstants .swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E0427185E3500021B9D /* APIConstants .swift */; };
 		CEEB1E1727186A0500021B9D /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1627186A0500021B9D /* Coffee.swift */; };
 		CEEB1E1A27186B1000021B9D /* CoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1927186B1000021B9D /* CoffeeService.swift */; };
 		CEEB1E1D27186C2500021B9D /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1C27186C2500021B9D /* CoffeeViewModel.swift */; };
-		CEEB1E2027186DFD00021B9D /* CurrentCoffeeImageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E1F27186DFD00021B9D /* CurrentCoffeeImageScreen.swift */; };
 		CEEB1E2327186FC500021B9D /* CoffeeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1E2227186FC500021B9D /* CoffeeImageView.swift */; };
+		CEF02E2A2720E9F2001FC920 /* CurrentCoffeeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF02E292720E9F2001FC920 /* CurrentCoffeeScreen.swift */; };
+		CEF02E2C2720EAF1001FC920 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF02E2B2720EAF1001FC920 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEEB1DF127185D9400021B9D /* Coffee API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEB1DF427185D9400021B9D /* Coffee_APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_APIApp.swift; sourceTree = "<group>"; };
-		CEEB1DF627185D9400021B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEEB1DF827185DAD00021B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEB1DFB27185DAD00021B9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEEB1E0427185E3500021B9D /* APIConstants .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIConstants .swift"; sourceTree = "<group>"; };
 		CEEB1E1627186A0500021B9D /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Coffee.swift; path = ../../../../../../../Documents/Coffee.swift; sourceTree = "<group>"; };
 		CEEB1E1927186B1000021B9D /* CoffeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoffeeService.swift; path = ../../../../../../../Documents/CoffeeService.swift; sourceTree = "<group>"; };
 		CEEB1E1C27186C2500021B9D /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoffeeViewModel.swift; path = ../../../../../../../Documents/CoffeeViewModel.swift; sourceTree = "<group>"; };
-		CEEB1E1F27186DFD00021B9D /* CurrentCoffeeImageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrentCoffeeImageScreen.swift; path = ../../../../../../../Documents/CurrentCoffeeImageScreen.swift; sourceTree = "<group>"; };
 		CEEB1E2227186FC500021B9D /* CoffeeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoffeeImageView.swift; path = ../../../../../../../Documents/CoffeeImageView.swift; sourceTree = "<group>"; };
+		CEF02E292720E9F2001FC920 /* CurrentCoffeeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCoffeeScreen.swift; sourceTree = "<group>"; };
+		CEF02E2B2720EAF1001FC920 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +47,7 @@
 		CEEB1DE827185D9400021B9D = {
 			isa = PBXGroup;
 			children = (
+				CEF02E2B2720EAF1001FC920 /* LoadingView.swift */,
 				CEEB1DF327185D9400021B9D /* Coffee API */,
 				CEEB1DF227185D9400021B9D /* Products */,
 			);
@@ -66,7 +67,6 @@
 				CEEB1E14271869D200021B9D /* Feature */,
 				CEEB1E0327185DFE00021B9D /* Constants */,
 				CEEB1DF427185D9400021B9D /* Coffee_APIApp.swift */,
-				CEEB1DF627185D9400021B9D /* ContentView.swift */,
 				CEEB1DF827185DAD00021B9D /* Assets.xcassets */,
 				CEEB1DFA27185DAD00021B9D /* Preview Content */,
 			);
@@ -128,7 +128,7 @@
 		CEEB1E1E27186DE200021B9D /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				CEEB1E1F27186DFD00021B9D /* CurrentCoffeeImageScreen.swift */,
+				CEF02E292720E9F2001FC920 /* CurrentCoffeeScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -211,12 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEB1E2027186DFD00021B9D /* CurrentCoffeeImageScreen.swift in Sources */,
 				CEEB1E0527185E3500021B9D /* APIConstants .swift in Sources */,
-				CEEB1DF727185D9400021B9D /* ContentView.swift in Sources */,
 				CEEB1DF527185D9400021B9D /* Coffee_APIApp.swift in Sources */,
 				CEEB1E1727186A0500021B9D /* Coffee.swift in Sources */,
+				CEF02E2A2720E9F2001FC920 /* CurrentCoffeeScreen.swift in Sources */,
 				CEEB1E1D27186C2500021B9D /* CoffeeViewModel.swift in Sources */,
+				CEF02E2C2720EAF1001FC920 /* LoadingView.swift in Sources */,
 				CEEB1E2327186FC500021B9D /* CoffeeImageView.swift in Sources */,
 				CEEB1E1A27186B1000021B9D /* CoffeeService.swift in Sources */,
 			);
@@ -357,7 +357,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +387,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
